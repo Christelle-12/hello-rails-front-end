@@ -6,13 +6,9 @@ const initialState = {
 } 
 
 export const fetchRandomGreeting = createAsyncThunk('greetings/fetchRandomGreeting', async () => {
-    try { 
-        const response = await fetch('http://127.0.0.1:3000/messages');
-        const data = await response.json();
-        return data.greetings;
-    } catch (error) {
-        throw error;
-    }
+    const response = await fetch('http://127.0.0.1:3000/messages');
+    const data = await response.json();
+    return data.greetings;
 });
 
 const greetingsSlice = createSlice({
