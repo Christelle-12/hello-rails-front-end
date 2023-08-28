@@ -146,6 +146,6 @@ I want to express my deep appreciation to the Microverse full-stack curriculum f
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
